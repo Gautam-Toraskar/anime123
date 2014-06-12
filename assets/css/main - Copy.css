@@ -1,0 +1,59 @@
+.box{
+  animation:  animationFrames 0.5s linear alternate;
+  -webkit-animation:  animationFrames 0.5s linear alternate;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin-left: 200px;
+}
+@keyframes animationFrames{
+  0% {
+    left:0px;
+    top:0px;
+    opacity:1;
+    transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+  25% {
+    left:-50px;
+    top:-50px;
+  }
+  50% {
+    left:0px;
+    top:0px;
+    transform:  rotate(0deg) ;
+  }
+  75% {
+    left:-50px;
+    top:-50px;
+    transform:  rotate(0deg) ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    left:0px;
+    top:0px;
+    opacity:1;
+    transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+  25% {
+    left:-50px;
+    top:-50px;
+  }
+  50% {
+    left:0px;
+    top:0px;
+    transform:  rotate(0deg) ;
+  }
+  75% {
+    left:-50px;
+    top:-50px;
+    transform:  rotate(0deg) ;
+  }
+  100% {
+    left:0px;
+    top:0px;
+    transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+}

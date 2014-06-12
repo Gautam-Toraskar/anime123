@@ -1,0 +1,432 @@
+.element-content {
+  margin: 120px 0;
+}
+.element-content h3 {
+  font-weight: bold;
+}
+.element-content p {
+  font-size: 18px;
+  line-height: 1.25;
+}
+.element-box {
+  background-color: #1ABB9C;
+  border-radius: 100%;
+  overflow: hidden;
+  float: left;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 20px 50px;
+}
+.lightening-anime {
+  position: relative;
+  overflow: visible;
+  float: left;
+  top: 126px;
+  left: 125px;
+}
+.light-rod {
+  position: absolute;
+  background-image: url(../img/shock-sprite.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+.element-box:hover .light-rod-1 {
+  animation: animationFramesLeftLeft 0.15s linear 0s alternate infinite both;
+  -webkit-animation: animationFramesLeftLeft 0.15s linear 0s alternate infinite both;
+}
+.light-rod-1 {
+  background-position: 0 100%;
+  width: 108px;
+  height: 50px;
+  margin-left: -100px;
+}
+.light-rod-2 {
+  width: 80px;
+  height: 56px;
+  background-position: -33px -50px;
+  margin-top: -47px;
+  margin-left: -67px;
+}
+.element-box:hover .light-rod-2 {
+  animation: animationFramesTopLeft 0.15s linear 0s alternate infinite both;
+  -webkit-animation: animationFramesTopLeft 0.15s linear 0s alternate infinite both;
+}
+.light-rod-3 {
+  width: 40px;
+  height: 93px;
+  background-position: -118px 0px;
+  margin-top: -90px;
+}
+.element-box:hover .light-rod-3 {
+  animation: animationFramesTopTop 0.15s linear 0s alternate infinite both;
+  -webkit-animation: animationFramesTopTop 0.15s linear 0s alternate infinite both;
+}
+.light-rod-4 {
+  width: 50px;
+  height: 76px;
+  background-position: -189px -21px;
+  margin-top: -68px;
+  margin-left: 44px;
+}
+.element-box:hover .light-rod-4 {
+  animation: animationFramesTopRight 0.15s linear 0s alternate infinite both;
+  -webkit-animation: animationFramesTopRight 0.15s linear 0s alternate infinite both;
+}
+.light-rod-5 {
+  width: 98px;
+  height: 42px;
+  background-position: -209px -103px;
+  margin-left: 46px;
+  margin-top: -10px;
+}
+.element-box:hover .light-rod-5 {
+  animation: animationFramesRightRight 0.15s linear 0s alternate infinite both;
+  -webkit-animation: animationFramesRightRight 0.15s linear 0s alternate infinite both;
+}
+.hand {
+  background: url(../img/hand.png) center no-repeat;
+  background-size: contain;
+  width: 80px;
+  height: 99px;
+  position: absolute;
+  left: -4px;
+  top: 10px;
+}
+@keyframes animationFramesTopLeft {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: -30px;
+    left: -30px;
+  }
+}
+@-webkit-keyframes animationFramesTopLeft {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: -30px;
+    left: -30px;
+  }
+}
+/***************************************************************************************************/
+@keyframes animationFramesTopRight {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: -30px;
+    left: 30px;
+  }
+}
+@-webkit-keyframes animationFramesTopRight {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: -30px;
+    left: 30px;
+  }
+}
+/***************************************************************************************************/
+@keyframes animationFramesBottomLeft {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 30px;
+    left: 30px;
+  }
+}
+@-webkit-keyframes animationFramesBottomLeft {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 30px;
+    left: 30px;
+  }
+}
+/***************************************************************************************************/
+@keyframes animationFramesBottomRight {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: -30px;
+    left: 30px;
+  }
+}
+@-webkit-keyframes animationFramesBottomRight {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: -30px;
+    left: 30px;
+  }
+}
+/***************************************************************************************************/
+@keyframes animationFramesTopTop {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: -30px;
+    left: 0px;
+  }
+}
+@-webkit-keyframes animationFramesTopTop {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: -30px;
+    left: 0px;
+  }
+}
+/***************************************************************************************************/
+@keyframes animationFramesLeftLeft {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: -30px;
+  }
+}
+@-webkit-keyframes animationFramesLeftLeft {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: -30px;
+  }
+}
+/***************************************************************************************************/
+@keyframes animationFramesRightRight {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 30px;
+  }
+}
+@-webkit-keyframes animationFramesRightRight {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 30px;
+  }
+}
+.box-bulb {
+  width: 100%;
+  border-radius: 100%;
+  height: 100%;
+}
+.hand-box {
+  width: 178px;
+  overflow: visible;
+  height: 122px;
+  background: url(../img/box-hand.png) top left no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: -15px;
+  right: 0;
+  margin: auto;
+  top: 111px;
+  bottom: 0;
+}
+.bulb {
+  height: 100px;
+  width: 60px;
+  background: url(../img/offBulb.png) top left no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 32px;
+  right: 0;
+  margin: auto;
+  top: -83px;
+  bottom: 0;
+  overflow: visible;
+}
+.box-bulb:hover .bulb {
+  background: url(../img/onBulb.png) top left no-repeat;
+  background-size: contain;
+}
+.bulb-rays {
+  visibility: hidden;
+  background: url(../img/bulbRays.png) top left no-repeat;
+  height: 100px;
+  width: 142px;
+  background-size: contain;
+  position: absolute;
+  left: 39px;
+  right: 0;
+  margin: auto;
+  top: 23px;
+}
+.box-bulb:hover .bulb-rays {
+  visibility: visible;
+}
+.pencil-brain {
+  width: 100%;
+  border-radius: 100%;
+  height: 100%;
+}
+.pencil {
+  position: absolute;
+  top: 157px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  height: 137px;
+  width: 55px;
+  background: url(../img/pencil.png) left top no-repeat;
+  background-size: contain;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.pencil-brain:hover .pencil {
+  animation: pencilAnimation 0.6s ease-in-out 0 infinite;
+  -webkit-animation: pencilAnimation 0.6s ease-in-out 0 infinite;
+}
+.brain {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 124px;
+  margin: auto;
+  height: 138px;
+  width: 154px;
+  background: url(../img/brain.png) left top no-repeat;
+  background-size: contain;
+}
+@keyframes pencilAnimation {
+  to {
+    left: -3px;
+  }
+  from {
+    left: 3px;
+  }
+}
+@-webkit-keyframes pencilAnimation {
+  0% {
+    left: -6px;
+  }
+  50% {
+    left: 6px;
+  }
+  100% {
+    left: -6px;
+  }
+}
+.lightning-box {
+  background-color: #1ABB9C;
+  border-radius: 100%;
+}
+header {
+  background-color: #d5d5d5;
+}
+header.relative {
+  position: relative;
+}
+header.fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 900000000;
+}
+.logo-icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-color: #afcd47;
+  position: absolute;
+  top: 13px;
+}
+nav ul.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+nav ul.list li {
+  float: left;
+  margin-right: 45px;
+}
+nav ul.list li a {
+  text-decoration: none;
+}
+nav ul.list li a h3 {
+  margin: 25px auto;
+  font-size: 25px;
+  font-family: lato;
+  font-weight: 300;
+}
+nav ul.list li a h3:hover {
+  color: red;
+}
+nav ul.list li:last-child {
+  margin-right: 0;
+}
+section#hero {
+  background: url(../img/home.jpg) center no-repeat;
+  background-size: cover  ;
+  margin-top: 75px;
+  height: 530px;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+h1.page-title,
+h2.subtitle {
+  color: #ffffff;
+  line-height: 1;
+  max-width: 100%;
+  margin-bottom: 0;
+  text-shadow: 0 1px 2px #666666;
+  text-align: center;
+}
+.careers-jobs-nav {
+  background-color: #424242;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.careers-jobs-nav .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.careers-jobs-nav h2 {
+  text-align: center;
+  color: white;
+  font-family: lato;
+  margin: 15px auto;
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

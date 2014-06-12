@@ -1,0 +1,160 @@
+
+@anime-properties : 0.2s linear 0.3s alternate infinite;
+ 
+@animation-top-top : animationFramesTopTop @anime-properties;
+@animation-top-left : animationFramesTopLeft @anime-properties;
+@animation-top-right : animationFramesTopRight @anime-properties;
+@animation-bottom-left : animationFramesBottomLeft @anime-properties;
+@animation-bottom-right : animationFramesBottomRight @anime-properties;
+@animation-left-left : animationFramesLeftLeft @anime-properties;
+@animation-right-right : animationFramesRightRight @anime-properties;
+
+@origin-value : 0px;
+@max-shift-distance : 50px;
+
+.light-rod{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  background-image: url(spark.png);
+  margin: 20px;
+  margin-left: 50px;
+  // float: left;
+}
+
+.light-rod-1{
+  animation:  @animation-left-left;
+  -webkit-animation:  @animation-left-left;
+  .light-rod;
+}
+.light-rod-2{
+  animation:  @animation-top-left;
+  -webkit-animation:  @animation-top-left;
+  .light-rod;
+}
+.light-rod-3{
+  animation:  @animation-top-top;
+  -webkit-animation:  @animation-top-top;
+  .light-rod;
+}
+.light-rod-4{
+  animation:  @animation-top-right;
+  -webkit-animation:  @animation-top-right;
+  .light-rod;
+}
+.light-rod-5{
+  animation:  @animation-right-right;
+  -webkit-animation:  @animation-right-right;
+  .light-rod;
+}
+
+// .light-rod-3{
+//   animation:  @animation-bottom-left;
+//   -webkit-animation:  @animation-bottom-left;
+//   .light-rod;
+// }
+
+// .light-rod-4{
+//   animation:  @animation-bottom-right;
+//   -webkit-animation:  @animation-bottom-right;
+//   .light-rod;
+// }
+
+.lighting-animation(@from1,@from2,@to1,@to2){
+  from{
+    top: @from1;
+    left: @from2;
+  }
+  to{
+    top: @to1;
+    left: @to2;
+  }
+}
+
+@keyframes animationFramesTopLeft{
+  .lighting-animation(0,0,-50px,-50px);
+}
+
+@-webkit-keyframes animationFramesTopLeft {
+  .lighting-animation(0,0,-50px,-50px);
+}
+
+//
+// define for opera, moz and ie
+//
+
+/***************************************************************************************************/
+
+@keyframes animationFramesTopRight{
+  .lighting-animation(0,0,-50px,50px);
+}
+
+@-webkit-keyframes animationFramesTopRight {
+  .lighting-animation(0,0,-50px,50px);
+}
+//
+// define for opera, moz and ie
+//
+
+/***************************************************************************************************/
+
+@keyframes animationFramesBottomLeft{
+  .lighting-animation(0px,0px,50px,50px);
+}
+
+@-webkit-keyframes animationFramesBottomLeft {
+  .lighting-animation(0px,0px,50px,50px);
+}
+//
+// define for opera, moz and ie
+//
+
+/***************************************************************************************************/
+
+@keyframes animationFramesBottomRight{
+  .lighting-animation(0px,0px,-50px,50px);
+}
+
+@-webkit-keyframes animationFramesBottomRight {
+  .lighting-animation(0px,0px,-50px,50px);
+}
+//
+// define for opera, moz and ie
+//
+
+/***************************************************************************************************/
+
+@keyframes animationFramesTopTop{
+  .lighting-animation(0px,0px,-50px,0px);
+}
+
+@-webkit-keyframes animationFramesTopTop {
+  .lighting-animation(0px,0px,-50px,0px);
+}
+//
+// define for opera, moz and ie
+//
+
+/***************************************************************************************************/
+
+@keyframes animationFramesLeftLeft{
+  .lighting-animation(0px,0px,0px,-50px);
+}
+
+@-webkit-keyframes animationFramesLeftLeft{
+  .lighting-animation(0px,0px,0px,-50px);
+}
+//
+// define for opera, moz and ie
+//
+
+/***************************************************************************************************/
+
+@keyframes animationFramesRightRight{
+  .lighting-animation(0px,0px,0px,50px);
+}
+
+@-webkit-keyframes animationFramesRightRight{
+  .lighting-animation(0px,0px,0px,50px);
+}
