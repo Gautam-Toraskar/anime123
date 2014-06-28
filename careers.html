@@ -179,12 +179,105 @@
               </p>
             </div>
           </div>
+
+          <div class="row">
+            <div class="col-md-6 element-content">
+              <h3>This the title</h3>
+              <p>
+                lorem ipsum content Come join us to help millions of people connect, express and discover the world on the Twitter platform.
+              </p>
+            </div>
+            <div class="col-md-6 ">
+              <div class="element-box pull-left">
+                <div class="icon-box">
+                  <div class="meteo"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <style type="text/css" media="screen">
-        footer{
-
+      <style type="text/css">
+        section h2{
+          color: gray;
+          font-family: "raleway",sans-serif;
+          font-size: 55px;
+          font-weight: 300;
         }
+        section#openings div.container-smooth{
+          background-color: #1ABB9C;
+          min-height: 100px;
+        }
+        section#openings div.container-smooth .container{
+          padding-top: 20px;
+          padding-bottom: 90px;
+        }
+        section#openings div.careersPage{
+          background-repeat: no-repeat;
+          background-image: url(assets/img/careersPage.png);
+          transition: all 0.2s ease-in-out;
+        }
+        .careersOpenings h3{
+          font-size: 28px;
+          color: white;
+          margin-top: 278px;
+          text-align: center;
+          font-family: "raleway",sans-serif;
+        }
+      </style>
+      <section id="openings">
+      <h2 class="text-center">Browse openings by Team</h2>
+        <div class="container-smooth">
+          <div class="container">
+            <div class="row">
+              <div id="software-engg" class="col-md-3 careersOpenings sw">
+                <h3>Software Enginnering</h3>
+              </div>
+              <div id="design" class="col-md-3 careersOpenings design">
+                <h3>Design &amp; UX Research</h3>
+              </div>
+              <div id="marketing" class="col-md-3 careersOpenings marketing">
+                <h3>Business &amp; Market Development</h3>
+              </div>
+              <div id="HR" class="col-md-3 careersOpenings hr">
+                <h3>HR &amp; Recruiting</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <style type="text/css">
+        #techs .techs{
+          margin: auto;
+          cursor: pointer;
+        }
+        #techs .tech-wrapper{
+          padding: 20px 0;
+        }
+      </style>
+      <section id="techs">
+        <!-- <h2 class="text-center">Technologies</h2> -->
+        <div class="container">
+          <div class="row tech-wrapper">
+            <div class="col-md-3">
+              <div class="techs node_bw"></div>
+            </div>
+            <div class="col-md-3">
+              <div class="techs coffee_bw"></div>
+            </div>
+            <div class="col-md-3">
+              <div class="techs html5_bw"></div>
+            </div>
+            <div class="col-md-3">
+              <div class="techs css3_bw"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <style type="text/css" media="screen">
+
         footer h5{
           color: #1ABB9C;
           font-family: "proxima-nova",sans-serif;
@@ -274,9 +367,10 @@
         }
         .lower-footer .float-right p{
           text-align: right;
+          margin: 10px 0;
         }
         .lower-footer{
-          background-color: rgb(26, 26, 26);
+          background-color: #2e2f3c;
         }
         div.lower-footer p,div.lower-footer h5{
           padding: 10px 0;
@@ -288,14 +382,14 @@
           color: white;
         }
         .transition-properties{
-          -webkit-transition: all 0.2s linear;
-          -moz-transition: all 0.2s linear;
-          -ms-transition: all 0.2s linear;
-          -o-transition: all 0.2s linear;
-          transition: all 0.2s linear;
+          -webkit-transition: all 1s ease-in-out;
+          -moz-transition: all 1s ease-in-out;
+          -ms-transition: all 0.4s ease-in-out;
+          -o-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
         }
         div.lower-footer p a{
-          color: white;
+          color: #1ABB9C;
           text-decoration: none;
           -webkit-transition: all 0.2s linear;
           -moz-transition: all 0.2s linear;
@@ -304,7 +398,7 @@
           transition: all 0.2s linear;
         }
         div.lower-footer p a:hover{
-          color: #1ABB9C;
+          color: white;
         }
         .proxlight {
           font-family: "proxima-nova",sans-serif;
@@ -320,7 +414,7 @@
           font-style: normal;
           font-weight: 700 !important;
         }
-        #getstarted:hover{
+        #getstarted:hover,form#newsletter input[name="submit"]:hover{
           text-decoration: none;
           color: white;
           border-color:white;
@@ -333,7 +427,7 @@
               <div class="col-md-3">
                 <h5>Get in Touch</h5>
                 <p>contact@helixtech.co</p>
-                <p>+91(0832)-272426</p>
+                <p style="color:#B4B4B4;">+91(0832)-272426</p>
                 <p>Helix Tech Info Systems Pvt. Ltd.<br>Verna Goa-403 722 - India.</p>
               </div>
               <div class="col-md-4">
@@ -347,15 +441,67 @@
                   <input class="float-left"type="text" name="newsletter" value="" placeholder="">
                   <input id="search-submit" class="prefix button prox float-left" type="button" name="submit" value="Submit">
                 </form>
+                <style type="text/css">
+                  .social-div{
+                    /*overflow: hidden;*/
+                    color: white;
+                    width: 100%;
+                    margin-top: 20px;
+                  }
+                  div.social-div span{
+                    font-size: 40px;
+                    margin-right: 13px;
+                    color: #1ABB9C;
+                    position: relative;
+                    -webkit-transition: all 0.2s ease-in-out;
+                    -moz-transition: all 0.2s ease-in-out;
+                    -ms-transition: all 0.2s ease-in-out;
+                    -o-transition: all 0.2s ease-in-out;
+                    transition: all 0.2s ease-in-out;
+                    bottom: 0;
+                  }
+                  div.social-div span:hover{
+                    color: white;
+                    bottom: 5px;
+                  }
+                  div.social-div a{
+                    text-decoration: none;
+                  }
+                </style>
+                <div class="clearfix"></div>
+                <div class="social-div">
+                  <a href="#">
+                    <span class="icon-facebook transition-properties"></span>
+                  </a>
+                  <a href="#">
+                    <span class="icon-twitter transition-properties"></span>
+                  </a>
+                  <a href="#">
+                    <span class="icon-google-plus transition-properties"></span>
+                  </a>
+                  <a href="#">
+                    <span class="icon-linkedin transition-properties"></span>
+                  </a>
+                  <a href="#">
+                    <span class="icon-pinterest transition-properties"></span>
+                  </a>
+                  <a href="#">
+                    <span class="icon-youtube-play transition-properties"></span>
+                  </a>
+                  <a href="#">
+                    <span class="icon-instagram transition-properties"></span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
         <div class="lower-footer">
           <div class="container">
             <div class="row">
               <div class="col-md-6 float-left">
-                <h5>&copy; Helix Tech. All Rights Reserved</h5>
+                <h5 style="color:#83848e;">&copy; 2014 Helix Tech. All Rights Reserved</h5>
               </div>
               <div class="col-md-6 float-right text-right">
                 <p>

@@ -348,7 +348,7 @@
   border-radius: 100%;
 }
 header {
-  background-color: #d5d5d5;
+  background-color: #424242;
 }
 header.relative {
   position: relative;
@@ -383,9 +383,11 @@ nav ul.list li a {
 }
 nav ul.list li a h3 {
   margin: 25px auto;
-  font-size: 25px;
+  font-size: 20px;
   font-family: lato;
-  font-weight: 300;
+  font-weight: 500;
+  line-height: 25px;
+  color: white;
 }
 nav ul.list li a h3:hover {
   color: red;
@@ -427,6 +429,210 @@ h2.subtitle {
   color: white;
   font-family: lato;
   margin: 15px auto;
+}
+.cssBW {
+  width: 89px;
+  height: 92px;
+  background-position: -10px -2413px;
+}
+.html5BW {
+  width: 104px;
+  height: 92px;
+  background-position: -109px -2413px;
+}
+.coffeeBW {
+  width: 139px;
+  height: 92px;
+  background-position: -10px -2515px;
+}
+.csscolor {
+  width: 89px;
+  height: 87px;
+  background-position: -159px -2515px;
+}
+.html5color {
+  width: 88px;
+  height: 87px;
+  background-position: -223px -2413px;
+}
+.nodejsBW {
+  width: 165px;
+  height: 69px;
+  background-position: -10px -2617px;
+}
+.coffeecolor {
+  width: 155px;
+  height: 61px;
+  background-position: -10px -2696px;
+}
+.nodejscolor {
+  width: 165px;
+  height: 61px;
+  background-position: -10px -2767px;
+}
+.careersOpenings {
+  background: url("careersOpenings.png") top left no-repeat;
+  margin-right: 26px;
+}
+.careersOpenings:last-child {
+  margin-right: 0;
+}
+.design:hover {
+  width: 273px;
+  height: 274px;
+  background-position: -10px -10px;
+}
+.design {
+  width: 273px;
+  height: 274px;
+  background-position: -10px -294px;
+}
+.hr {
+  width: 271px;
+  height: 272px;
+  background-position: -10px -578px;
+}
+.marketing {
+  width: 275px;
+  height: 272px;
+  background-position: -10px -860px;
+}
+.sw {
+  width: 271px;
+  height: 272px;
+  background-position: -10px -1142px;
+}
+.hr:hover {
+  width: 271px;
+  height: 271px;
+  background-position: -10px -1424px;
+}
+.marketing:hover {
+  width: 275px;
+  height: 271px;
+  background-position: -10px -1705px;
+}
+.sw:hover {
+  width: 271px;
+  height: 271px;
+  background-position: -10px -1985px;
+}
+.techs {
+  background: url("techs.png") top left no-repeat;
+}
+.css3_bw {
+  width: 55px;
+  height: 79px;
+  background-position: -10px -10px;
+}
+.css3_bw:hover {
+  width: 55px;
+  height: 79px;
+  background-position: -75px -10px;
+}
+.html5_bw {
+  width: 56px;
+  height: 79px;
+  background-position: -10px -99px;
+}
+.html5_bw:hover {
+  width: 56px;
+  height: 79px;
+  background-position: -76px -99px;
+}
+.coffee_bw:hover {
+  width: 118px;
+  height: 60px;
+  background-position: -10px -188px;
+}
+.coffee_bw {
+  width: 118px;
+  height: 60px;
+  background-position: -10px -258px;
+}
+.node_bw:hover {
+  width: 142px;
+  height: 39px;
+  background-position: -11px -329px;
+}
+.node_bw {
+  width: 142px;
+  height: 39px;
+  background-position: -10px -377px;
+}
+.meteo {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  margin-top: 50px;
+  background: url(../img/meteo.png) no-repeat;
+  background-size: 2500px 200px;
+  background-position: -2265px 0px;
+  -webkit-transform: rotate(7deg);
+  cursor: pointer;
+}
+.element-box .meteo:hover {
+  animation-duration: 250ms;
+  animation-timing-function: step-start;
+  animation-name: logoanimate;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-timing-function: step-start;
+  -webkit-animation-name: logoanimate;
+}
+@-webkit-keyframes logoanimate {
+  0% {
+    background-position: 87px 0px;
+    -webkit-transform: rotate(0deg);
+  }
+  12% {
+    background-position: -206px 0px;
+    -webkit-transform: rotate(0deg);
+  }
+  24% {
+    background-position: -500px 0px;
+    -webkit-transform: rotate(0deg);
+  }
+  36% {
+    background-position: -800px 0px;
+    -webkit-transform: rotate(0deg);
+  }
+  48% {
+    background-position: -1088px 0px;
+    -webkit-transform: rotate(0deg);
+  }
+  60% {
+    background-position: -1386px 0px;
+    -webkit-transform: rotate(0deg);
+  }
+  72% {
+    background-position: -1675px 0px;
+    -webkit-transform: rotate(0deg);
+  }
+  84% {
+    background-position: -1969px 0px;
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    background-position: -2265px 0px;
+    -webkit-transform: rotate(7deg);
+  }
+}
+@-moz-keyframes logoanimate {
+  0% {
+    background-position: 0px 0;
+  }
+  25% {
+    background-position: 85px 0;
+  }
+  50% {
+    background-position: 170px 0;
+  }
+  75% {
+    background-position: 255px 0;
+  }
+  100% {
+    background-position: 340px 0;
+  }
 }
 
 /* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
