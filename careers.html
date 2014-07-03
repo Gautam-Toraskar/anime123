@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic">
 
     <!-- fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="assets/fonts/proxima-nova/proxima-nova.css">
     <script type="text/javascript" src="assets/fonts/proxima-nova/proxima-nova.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet" type="text/css">
@@ -279,7 +280,7 @@
       <style type="text/css" media="screen">
 
         footer h5{
-          color: #1ABB9C;
+          color: #5fb336;
           font-family: "proxima-nova",sans-serif;
           font-style: normal;
           font-weight: 700;
@@ -287,17 +288,18 @@
         }
         footer p{
           color: #fff;
-          font-family: "proxima-nova",sans-serif;
+          font-family: 'Montserrat',sans-serif;
           font-size: 15px;
         }
         form#newsletter input[name="newsletter"]{
           background-color: #fff;
           border: solid #999 1px;
-          height: 3.5em;
+          height: 2.5em;
           -webkit-border-radius: 0px;
           -moz-border-radius: 0px;
           border-radius: 0px;
           width: 205px;
+          padding-left: 5px;
         }
         form#newsletter input[name="newsletter"]:focus,form#newsletter input[name="newsletter"]:active{
           background: #fafafa;
@@ -309,36 +311,37 @@
         }
         form#newsletter input[name="submit"]{
           background-color: rgba(237,110,100,0);
-          border: solid #1abc9c 2px;
+          border: solid #5fb336 1px;
           -webkit-border-radius: 5px;
           -moz-border-radius: 5px;
           border-radius: 5px;
           box-shadow: none;
-          height: 3.5em;
+          height: 2.5em;
           width: 136px;
-          color: #1abc9c;
+          color: #5fb336;
           -webkit-appearance: none;
           -webkit-transition: all 0.2s linear;
           -moz-transition: all 0.2s linear;
           -ms-transition: all 0.2s linear;
           -o-transition: all 0.2s linear;
           transition: all 0.2s linear;
-          font-weight: bold;
+          font-weight: normal!important;
         }
         #getstarted, #search-submit {
           background-color: rgba(237,110,100,0);
-          border: solid #1abc9c 2px;
+          border: solid #5fb336 1px;
           -webkit-border-radius: 5px;
           -moz-border-radius: 5px;
           border-radius: 5px;
           box-shadow: none;
-          color: #1abc9c;
+          color: #5fb336;
           -webkit-appearance: none;
           -webkit-transition: all 0.2s linear;
           -moz-transition: all 0.2s linear;
           -ms-transition: all 0.2s linear;
           -o-transition: all 0.2s linear;
           transition: all 0.2s linear;
+          font-weight: normal!important;
         }
         #getstarted,#search-submit {
           width: 10em;
@@ -356,7 +359,7 @@
           border: none;
           overflow: hidden;
           display: block;
-          padding: 10px;
+          padding: 6px;
           text-transform: uppercase;
         }
         .float-right{
@@ -389,7 +392,7 @@
           transition: all 0.4s ease-in-out;
         }
         div.lower-footer p a{
-          color: #1ABB9C;
+          color: #5fb336;
           text-decoration: none;
           -webkit-transition: all 0.2s linear;
           -moz-transition: all 0.2s linear;
@@ -401,13 +404,14 @@
           color: white;
         }
         .proxlight {
-          font-family: "proxima-nova",sans-serif;
+          /*font-family: "proxima-nova",sans-serif;*/
+          font-family: 'Montserrat';
           font-style: normal;
           font-weight: 100;
         }
         footer div.upper-footer{
           background-color: #252531;
-          padding: 5em 0 4em 0;
+          padding: 3em 0 4em 0;
         }
         .prox {
           font-family: "proxima-nova",sans-serif;
@@ -419,26 +423,27 @@
           color: white;
           border-color:white;
         }
+
       </style>
       <footer>
         <div class="upper-footer">
           <div class="container">
             <div class="row">
               <div class="col-md-3">
-                <h5>Get in Touch</h5>
-                <p>contact@helixtech.co</p>
-                <p style="color:#B4B4B4;">+91(0832)-272426</p>
-                <p>Helix Tech Info Systems Pvt. Ltd.<br>Verna Goa-403 722 - India.</p>
+                <h5 >Get in Touch</h5>
+                <p style="margin-bottom:0px;">contact@helixtech.co</p>
+                <p >+91-(832)-6480422</p>
+                <p style="color:#B4B4B4;">Helix Tech Info Systems Pvt. Ltd.<br>Verna Goa-403 722 - India.</p>
               </div>
               <div class="col-md-4">
                 <h5 >Tell us about your project</h5>
-                <p class="proxlight">Do you have a project we can help you with? Why not get started by filling out our inquiry form.</p>
-                <a id="getstarted" class="prefix button prox" href="#">Get Started</a>
+                <p class="proxlight">Do you have a project we can help you with? Why not get started by trying out our <br/><strong style="color: #5fb336;">project planner</strong></p>
+                <a id="getstarted" class="prefix button prox" target="_blank" href="http://httest.in/project-planner/test/test.html">Get Started</a>
               </div>
               <div class="col-md-4">
                 <h5>Sign up for our newsletter</h5>
                 <form id="newsletter">
-                  <input class="float-left"type="text" name="newsletter" value="" placeholder="">
+                  <input class="float-left"type="text" name="newsletter" value="" placeholder="Email address">
                   <input id="search-submit" class="prefix button prox float-left" type="button" name="submit" value="Submit">
                 </form>
                 <style type="text/css">
@@ -449,9 +454,9 @@
                     margin-top: 20px;
                   }
                   div.social-div span{
-                    font-size: 40px;
+                    font-size: 34px;
                     margin-right: 13px;
-                    color: #1ABB9C;
+                    color: #5fb336;
                     position: relative;
                     -webkit-transition: all 0.2s ease-in-out;
                     -moz-transition: all 0.2s ease-in-out;
@@ -505,7 +510,7 @@
               </div>
               <div class="col-md-6 float-right text-right">
                 <p>
-                  <a href="#">Site Map</a> | <a href="#">Terms of use</a> | <a href="#">Privercy</a>
+                  <a href="#">Site Map</a> | <a href="#">Terms of use</a> | <a href="#">Privacy Policy</a>
                 </p>
               </div>
             </div>

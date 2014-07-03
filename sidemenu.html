@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/main.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="assets/packages/mm-navbar/jquery.mmenu.all.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      @media all and (min-width: 900px) {
+        html, body {
+          height: 100%;
+        }
+        #menu {
+          background: #535353;
+        }
+        #page {
+          border-left: 1px solid #ccc;
+          min-height: 100%;
+        }
+        /* hide open-button */
+        /*a[href="#menu"]
+        {
+          display: none !important;
+        }*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav id="menu">
+           <div>
+              <p>These pages tell something about us:</p>
+              <ul class="List">
+                <li class="Selected"><a href="/about/history/">History</a></li>
+                <li><a href="/about/team/">The team</a></li>
+                <li>
+                  <a href="/about/">About us</a>
+                  <ul>
+                    <li><a href="/about/history/">History</a></li>
+                    <li><a href="/about/team/">The team</a></li>
+                    <li><a href="/about/address/">Our address</a></li>
+                  </ul>
+                </li>
+              </ul>
+           </div>
+        </nav>
+      </header>
+    </div>
+      
+    <div> <!-- the wrapper -->
+       <div id="header">
+        <a href="#menu"><button>click me</button></a>
+          this is header
+       </div>
+       <div id="content">
+        Here comes the content
+       </div>
+       <div id="footer">
+        i'm footer
+       </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/packages/mm-navbar/jquery.mmenu.min.all.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('nav#menu').mmenu({
+          // classes: 'mm-light',
+          // searchfield : true ,
+          // counters    : true 
+        });
+      });
+    </script>
+  </body>
+</html>
