@@ -3,18 +3,22 @@
 }
 .element-content h3 {
   font-weight: bold;
+  font-size: 18px;
+  line-height: 1.25;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .element-content p {
   font-size: 18px;
   line-height: 1.25;
+  margin: 0 0 10px;
 }
 .element-box {
   background-color: #1ABB9C;
   border-radius: 100%;
   overflow: hidden;
   float: left;
-  width: 300px;
-  height: 300px;
+  width: 360px;
+  height: 360px;
   position: relative;
   margin: 20px 50px;
 }
@@ -22,8 +26,8 @@
   position: relative;
   overflow: visible;
   float: left;
-  top: 126px;
-  left: 125px;
+  top: 152px;
+  left: 152px;
 }
 .light-rod {
   position: absolute;
@@ -66,7 +70,7 @@
   width: 50px;
   height: 76px;
   background-position: -189px -21px;
-  margin-top: -68px;
+  margin-top: -67.99999999px;
   margin-left: 44px;
 }
 .element-box:hover .light-rod-4 {
@@ -284,7 +288,7 @@
   left: 39px;
   right: 0;
   margin: auto;
-  top: 23px;
+  top: 50px;
 }
 .box-bulb:hover .bulb-rays {
   visibility: visible;
@@ -564,7 +568,7 @@ h2.subtitle {
   width: 250px;
   height: 250px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 73px;
   background: url(../img/meteo.png) no-repeat;
   background-size: 2500px 200px;
   background-position: -2265px 0px;
@@ -778,5 +782,3 @@ form#newsletter input[name="submit"]:hover {
   color: white;
   border-color: white;
 }
-
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
