@@ -70,7 +70,7 @@
   width: 50px;
   height: 76px;
   background-position: -189px -21px;
-  margin-top: -67.99999999px;
+  margin-top: -68px;
   margin-left: 44px;
 }
 .element-box:hover .light-rod-4 {
@@ -85,8 +85,8 @@
   margin-top: -10px;
 }
 .element-box:hover .light-rod-5 {
-  animation: animationFramesRightRight 0.15s linear 0s alternate infinite both;
-  -webkit-animation: animationFramesRightRight 0.15s linear 0s alternate infinite both;
+  animation: animationFramesRighteRight 0.15s linear 0s alternate infinite both;
+  -webkit-animation: animationFramesRighteRight 0.15s linear 0s alternate infinite both;
 }
 .hand {
   background: url(../img/hand.png) center no-repeat;
@@ -475,11 +475,7 @@ h2.subtitle {
   background-position: -10px -2767px;
 }
 .careersOpenings {
-  background: url("careersOpenings.png") top left no-repeat;
-  margin-right: 26px;
-}
-.careersOpenings:last-child {
-  margin-right: 0;
+  background: url("../img/animation-circles.png") top left no-repeat;
 }
 .design:hover {
   width: 273px;
@@ -509,7 +505,7 @@ h2.subtitle {
 .hr:hover {
   width: 271px;
   height: 271px;
-  background-position: -10px -1424px;
+  background-position: -10px -1423.99999999px;
 }
 .marketing:hover {
   width: 275px;
@@ -781,4 +777,47 @@ form#newsletter input[name="submit"]:hover {
   text-decoration: none;
   color: white;
   border-color: white;
+}
+.circle {
+  background: url("circle.png") top left no-repeat;
+}
+.hr:hover {
+  width: 270px;
+  height: 270px;
+  background-position: -10px -10px;
+}
+.hr {
+  width: 270px;
+  height: 270px;
+  background-position: -10px -791px;
+}
+.mr:hover {
+  width: 270px;
+  height: 270px;
+  background-position: -10px -1572px;
+}
+.mr {
+  width: 270px;
+  height: 270px;
+  background-position: -10px -2353px;
+}
+.ds:hover {
+  width: 270px;
+  height: 270px;
+  background-position: -10px -3134px;
+}
+.ds {
+  width: 270px;
+  height: 270px;
+  background-position: -10px -3915px;
+}
+.sw:hover {
+  width: 270px;
+  height: 270px;
+  background-position: -10px -4696px;
+}
+.sw {
+  width: 270px;
+  height: 270px;
+  background-position: -10px -5477px;
 }

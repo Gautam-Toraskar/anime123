@@ -240,16 +240,16 @@
         <div class="container-smooth">
           <div class="container">
             <div class="row">
-              <div id="software-engg" class="col-md-3 careersOpenings sw">
+              <div id="software-engg" class="col-md-3 circle sw">
                 <h3>Software Enginnering</h3>
               </div>
-              <div id="design" class="col-md-3 careersOpenings design">
+              <div id="design" class="col-md-3 circle ds">
                 <h3>Design &amp; UX Research</h3>
               </div>
-              <div id="marketing" class="col-md-3 careersOpenings marketing">
+              <div id="marketing" class="col-md-3 circle mr">
                 <h3>Business &amp; Market Development</h3>
               </div>
-              <div id="HR" class="col-md-3 careersOpenings hr">
+              <div id="HR" class="col-md-3 circle hr">
                 <h3>HR &amp; Recruiting</h3>
               </div>
             </div>

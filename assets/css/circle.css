@@ -1,0 +1,10 @@
+.circle{ background:url("circle.png") top left no-repeat; }
+.hr-sh{ width:771px; height:771px; background-position:-10px -10px; }
+.hr{ width:771px; height:771px; background-position:-10px -791px; }
+.mr-sh{ width:771px; height:771px; background-position:-10px -1572px; }
+.mr{ width:771px; height:771px; background-position:-10px -2353px; }
+.de-sh{ width:771px; height:771px; background-position:-10px -3134px; }
+.ds{ width:771px; height:771px; background-position:-10px -3915px; }
+.sw-sh{ width:771px; height:771px; background-position:-10px -4696px; }
+.sw{ width:771px; height:771px; background-position:-10px -5477px; }
+
